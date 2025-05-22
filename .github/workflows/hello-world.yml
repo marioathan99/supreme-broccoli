@@ -8,5 +8,5 @@ jobs:
    runs-on: windows-latest
 
    steps: 
-      - uses: actions/checout@v4
+      - uses: actions/checkout@v4
       - run: echo "$(cat hello_world.txt)"
